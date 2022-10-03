@@ -1,0 +1,28 @@
+.containerHeader{
+    min-height: 50px;
+}
+
+.navLabel{
+    height: 50px;
+}
+
+.ulHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    height: 100%;
+}
+
+.liElement{
+    list-style: none;
+    border-right: 1px solid black;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color: #141414;
+}

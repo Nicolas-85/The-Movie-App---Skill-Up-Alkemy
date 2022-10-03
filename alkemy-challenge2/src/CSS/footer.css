@@ -1,0 +1,30 @@
+.footerLabel{
+    min-height: 50px;
+    padding: 5px;
+    /* margin-right: 10px; */
+}
+
+.navLabel{
+    height: 50px;
+}
+
+.ulLabel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    height: 100%;
+    padding: 0;
+}
+
+.liLabel{
+    list-style: none;
+    border-right: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: #141414;
+    margin-right: 2px;
+}

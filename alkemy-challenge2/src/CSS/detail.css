@@ -1,0 +1,29 @@
+.containerDetail{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 130px;
+    background-color: darkgrey;
+    font-family: 'JetBrains Mono', monospace;
+}
+h2{
+    text-align: left;
+}
+
+h5{
+    max-width: 300px;
+    margin-top: 15px;
+}
+
+p{
+    font-size: 16px;
+    max-width: 300px;
+}
+
+.containerImgDetail{
+    display: flex;
+    margin-top: 15px;
+}
+img{
+    margin-right: 10px;
+}
