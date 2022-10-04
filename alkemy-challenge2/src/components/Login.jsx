@@ -49,7 +49,7 @@ const Login = ()=> {
     swAlert(<h2>Estamos listos para enviar la info a quien sabe donde!!!</h2>)
 
     axios
-        .post('https://challenge-react.alkemy.org', {email, password})
+        .post('http://challenge-react.alkemy.org', {email, password})
         .then((res)=> {
         console.log(res)
         const tokenMio = res.data.token 
